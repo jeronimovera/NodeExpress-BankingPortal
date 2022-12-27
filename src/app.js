@@ -59,7 +59,7 @@ app.post('/payment', (req, res) => {
         'utf8'
     );
 
-    res.render('transfer', {
+    res.render('payment', {
         message: 'Payment Successful',
         account: accounts.credit,
     });
